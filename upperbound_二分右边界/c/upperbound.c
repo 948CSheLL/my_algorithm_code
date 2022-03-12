@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 int *upper_bound(int *array_l, int *array_r, int val) {
     if(array_l >= array_r) {
         fprintf(stderr, "upper_bound error: array_l greater equal than array_r");
